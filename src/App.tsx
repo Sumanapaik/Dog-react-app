@@ -6,7 +6,7 @@ import Loader from "./components/loader";
 import Results from "./components/Results";
 import { fetchDogsData, fetchDogsSubBreed } from "./lib/api";
 import { RootState } from "./reducers";
-import { AppBody, Container, Description } from "./Styles/fonts/poppins/styled";
+import { AppBody, Container, Description } from "./Styles/styled";
 
 function App() {
   const [breedList, setBreedList] = useState(null);
